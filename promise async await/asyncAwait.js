@@ -1,5 +1,9 @@
 // ==============================> Arrow functions format <===============================
-let delay = (time) => new Promise(resolve => {
+/**
+ * Console log something after delay
+ * @param time
+ */
+let delay = time => new Promise(resolve => {
     setTimeout(() => {
         console.log("time = " + time); // Wait "time" and do console.log
         resolve() // Call resolve() after console.log

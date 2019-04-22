@@ -4,7 +4,11 @@ document.querySelector('[name="btnK"]');
 // Returns ALL elements with such selector
 document.querySelectorAll('[name="btnK"]');
 
-// Wait for element method example
+/**
+ * Wait for element method example
+ * @param selector
+ * @param delay
+ */
 let waitForElement = (selector, delay) => {
     if (!delay) {
         delay = 15000;
