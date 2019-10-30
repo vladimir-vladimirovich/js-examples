@@ -1,4 +1,8 @@
 // ==============================> Promises - Resolve <===============================
+/**
+ * Call timeout callback after delay
+ * @param time
+ */
 let delay = function (time) {
     return new Promise(function (resolve) {
         setTimeout(function () {
